@@ -1,0 +1,46 @@
+<form action="" method="get">
+<fieldset>
+    <legend>DATOS PERSONALES</legend>
+    <label for="Nombre">Nombre:</label><br>
+<input id="Nombre" name="Nombre" required type="text" placeholder="First name"><br>
+    <label for="Primer apellido">Primer apellido:</label><br>
+<input id="Primer apellido" name="Primer apellido" type="text" placeholder="Last name"><br>
+    <label for="Segundo apellido">Segundo apellido:</label><br>
+<input id="Segundo apellido" name="Segundo apellido" type="text"><br>
+    <label for="Teléfono">Teléfono:</label><br>
+<input id="Teléfono" name="Teléfono" type="tel" placeholder="Contact number"><br>
+    <label for="Correo electrónico">Correo electrónico:</label><br>
+<input id="Correo electrónico" name="Correo electrónico" required type="email" placeholder="Mail address"><br>
+</fieldset>
+<fieldset> 
+    <legend>INFORMACIÓN SOBRE EL VIAJE</legend>
+    <label for="Fecha Salida">Fecha Salida:</label><br>
+<input id="Fecha Salida"name="Fecha Salida" type="date"><br>
+    <label for="Fecha Regreso">Fecha Regreso:</label><br>
+<input id="Fecha Regreso"name="Fecha Regreso" type="date"><br>
+    <label for="Vuelo">Vuelo:</label><br>
+    <select id="Vuelo" name="Vuelo"><br>
+        <option value="Madrid-El Cairo">Madrid-El Cairo</option>
+        <option value="Barcelona-El Cairo">Barcelona-El Cairo</option>
+    </select><br>
+    <label for="Hotel seleccionado">Hotel seleccionado:</label><br>
+    <select id="Hotel" name="Hotel"><br>
+        <option value="La Joya del Nilo">La Joya del Nilo</option>
+        <option value="Gran Hotel Horus">Gran Hotel Horus</option>
+        <option value="Hotel Nefertiti">Hotel Nefertiti</option>
+    </select><br>
+    <label for="Régimen seleccionado">Régimen seleccionado:</label><br>
+    <select id="Régimen" name="Régimen"><br>
+        <option value="Pension completa">Pensión completa</option>
+        <option value="Media pension">Media pensión</option>
+        <option value="Solo Alojamiento" disabled>Solo Alojamiento</option>
+    </select>
+</fieldset><br>
+<label for="Comentarios adicionales">Comentarios adicionales:</label>
+<textarea id="Comentarios adicionales" name="Comentarios adicionales"></textarea>
+<div class="Comentarios adicionales">Escriba aquí cualquier comentario adicional</div><br>
+<input type="submit" value="Enviar">
+<input type="reset" value="Reinicio">
+</form>
+
+
